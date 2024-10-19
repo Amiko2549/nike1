@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: black; */
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(190, 188, 188);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+
+.parent{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgb(117, 117, 117); */
+}
+li{
+    list-style-type: none;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+.left{
+    justify-content: start;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    
+    
+}
+.left a{
+    font-size: 30px;
+}
+.cen{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 30px;
+}
+.right{
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+input{
+    padding: 5px;
+    border-radius: 15px;
+    
+    
+}
+.image{
+    width: 95%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border-radius: 10px;
+   margin-top: 40px;
+  
+   
+}
+.box:hover{
+    border: solid black ;
+    border-radius: 10px;
+}
+.box{
+    width: 33.33%;
+    height: 450px;
+   
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+.img{
+    width: 100%;
+    height: 1000px;
+    border-radius: 5px;
+}
+nav ul li a:hover{
+    /* text-decoration:underline; */
+    border-bottom: solid black 3px;
+
+}
+ul{
+    display: flex;
+    column-gap: 25px;
+}
+.text{
+    text-align: start;
+    justify-content: start;
+    font-size: 35px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+footer{
+    height: 500px;
+    width: 100%;
+    justify-content: start;
+    align-items: center;
+    background-color: #f1f1f1;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+
+    
+}
+.pre-footer{
+   
+    width: 20%;
+    height: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    margin-left: 40px;
+    width: 20%;
+    height: 300px;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+.box1 a{
+    font-size: 22px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  
+    /* background-color: aquamarine; */
+}
+.box2 a{
+    color: rgb(74, 74, 74);
+    font-size: 18px;
+
+}
+.box2 a:hover{
+    border-bottom: solid black 3px; 
+    margin-left: 10px;
+}
+.end-footer{
+    margin-top: 50px;
+    width: 95%;
+    height: 20px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+   
+   
+   
+}
+.color{
+    width: 100%;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.end-footer a{
+    font-size: 18px;
+    color: rgb(74, 74, 74);
+}
+.end-footer a:hover{
+    color: black;
+
+}
+.line{
+    background-color: black;
+    width: 95%;
+    height: 1px;
+}
+
+@media (max-width:768px) {
+
+
+ 
+
+  .image{
+    row-gap: 30px;
+    flex-direction: row;
+    width: 85%;
+    height: 700px;
+    
+  
+  }
+  .box{
+    width: 100%;
+    height: 700px;
+    
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+ 
+}
